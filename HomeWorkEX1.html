@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        table{
+            border:solid 3px blue;
+            border-collapse:collapse;
+            width:600px;
+            background-color:aquamarine;  
+            margin:auto;
+            margin-top:400px;  
+        }
+        td{
+            border-right-width:3px;
+            border-right-style:solid;
+            border-right-color:blue;
+            text-align:center;
+            color:blue;
+
+
+            
+        }
+    </style>
+    <script>
+     document.write("<table>");
+     for (var i = 1; i <= 9; i++) {
+         document.write("<tbody>");
+         document.write("<tr>");
+         for (var j = 2; j <= 9; j++) {
+             document.write("<td>" + j + "x" + i + "=" + i * j +"<br>"+ "</td>");
+         }
+         document.write("</tr>");
+         document.write("</tbody>");
+     }
+     document.write("</table>");
+
+    </script>
+  
+       
+
+     
+  
+    <style>
+        
+    </style>
+</head>
+<body>
+ 
+</body>
+</html>
